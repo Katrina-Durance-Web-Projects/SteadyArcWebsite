@@ -1,6 +1,6 @@
 @media only screen and (min-width: 501px) {
 
-    /* ADD CSS RESETS HERE */
+    /* CSS RESETS */
     * {
         vertical-align: baseline;
         font-weight: inherit;
@@ -14,12 +14,13 @@
         }
 
     .background {
-        background-image: url("../images/Chicago_Hancock.jpg");
+        align-items: center;
+        background-image: url("../images/Chicago_skyline_dusk.jpg");
         background-size: cover;
         display: grid;
         grid-gap: 1.4em;
-        grid-template-rows: 180px repeat(5, 3em) 4em;
-        height: 100vh;
+        grid-auto-rows: 180px repeat(5, 5em) 4em;
+        height: 100vh; /* NEED TO RESEARCH  IF THESE ARE BEST UNITS */
     }
 
 /*     .header {
@@ -28,9 +29,6 @@
         grid-template-rows: 160px;
     } */
 
-    .logo {
-        
-    }
     .Steady-Arc-logo {
         display: block;
         margin-left: auto;
@@ -50,14 +48,19 @@
     } */
 
     .button {
-    color: rgb(0, 97, 111); /*rgb(0, 164, 180)*/
-    display: block;
+    background-color:  rgb(0, 97, 111, 0.70);
+    border-radius: 20px;
+    color: white; /*rgb(0, 164, 180) rgb(0, 97, 111)*/
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.7em;
     font-weight: 600;
     padding: .5em;
-    text-align: center;
     text-decoration: none;
     }
+
+/* .footer {
+    display: flex;
+
+} */
 
 }
