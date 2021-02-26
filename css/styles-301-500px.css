@@ -1,0 +1,21 @@
+@media only screen and (min-width: 301px) and (max-width: 500px) {
+
+/* ADD CSS RESETS HERE */
+
+    .header {
+        border-bottom: 1px solid;
+        color: rgb(0,97,111);
+        justify-content: center;
+    }
+    .Steady-Arc-logo {
+        width: 10em;
+    }
+
+    .image {
+        display: block;
+    }
+    .Chicago-skyline {
+        width: 100%;
+    }
+
+}
