@@ -15,19 +15,36 @@
 
     .background {
         align-items: center;
-        background-image: url("../images/Chicago_skyline_dusk.jpg");
+        background-image: url("../images/Chicago-skyline.jpg");
         background-size: cover;
         display: grid;
+        justify-items: center;
         grid-gap: 1.4em;
         grid-auto-rows: 180px repeat(5, 5em) 4em;
         height: 100vh; /* NEED TO RESEARCH  IF THESE ARE BEST UNITS */
     }
 
-/*     .header {
+.button-row {
+/*     display: grid;
+    grid-auto-columns: repeat(5, 1fr); */
+    display: flex; /*PLAY WITH THIS AND SEE IF WOULD WORK BETTER THAN ABOVE*/
+}
+
+    .header {
+        align-items: center;
         display: grid;
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 160px;
-    } */
+        justify-items: center;
+    }
+    .header-content {
+        color: rgb(0, 97, 111);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 5em;
+        font-weight: 400;
+        padding-left: 0.5em;
+        white-space: nowrap;
+    }
 
     .Steady-Arc-logo {
         display: block;
@@ -37,30 +54,32 @@
         width: 14em;
     }
 
-/*     .image {
-        display: block;
-        grid-column-start: 2;
-        grid-column-end: 3;
-    }
-    .Chicago-sunrise {
-        height: 160px;
-        width: auto;
-    } */
-
     .button {
-    background-color:  rgb(0, 97, 111, 0.70);
+    background-color:  rgb(0, 97, 111, 0.50);
     border-radius: 20px;
-    color: white; /*rgb(0, 164, 180) rgb(0, 97, 111)*/
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.7em;
-    font-weight: 600;
-    padding: .5em;
+    font-size: 1.5em;
+    font-weight: 400;
+    padding: 10px;
     text-decoration: none;
     }
 
-/* .footer {
+.footer-container {
+    color: rgb(44, 44, 46);
     display: flex;
-
-} */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    justify-content: center;
+    padding: 5px;
+}
+.footer-content {
+    white-space: nowrap;
+}
+.pipe {
+    padding-left: 1em;
+    padding-right: 1em;
+}
 
 }
