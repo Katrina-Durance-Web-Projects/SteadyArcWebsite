@@ -13,70 +13,76 @@
         margin: 0;
         }
 
-
-    .wrapper {
-        /* background-image: url("C:/Users/whovi/OneDrive/Desktop/Web%20Development/SteadyArc/images/Chicago_sunrise.jpg"); */
+    .header {
+        align-items: center;
+        background-color: rgb(0, 97, 111);
+        border-bottom: 1px solid rgb(0, 97, 111);
         display: grid;
-        grid-gap: 1em;
-        grid-template-columns: 1fr;
-        grid-template-rows: 160px repeat(12, );  /* auto*/
-    }
-
-    .logo {
-        /* border-bottom: 2px solid; */
-        color: rgb(0,97,111);
-        justify-content: left;
-    }
+        justify-items: center;
+        } 
     .Steady-Arc-logo {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        /* CENTER THE LOGO & HIDE  STEADY ARC LLC*/
         padding-bottom: 5px;
-        width: 9em;
+
+        width: 10em;
+        }
+    .header-content {
+        color: white; /*rgb(0, 97, 111);*/
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        font-weight: 400;
+        padding-left: 0.2em;
+        white-space: nowrap;
+        }
+
+        .button {
+        background-color: rgb(0,97,111);
+        border-radius: 10px;
+        color: white;
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        justify-content: space-around;
+        margin-bottom: 14px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 14px;
+        padding: .5em;
+        text-align: center;
+        text-decoration: none;
+        }
+
+    .footer-container {
+        background-color: rgb(0, 97, 111);
+        border-bottom: 1px solid rgb(0, 97, 111);
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        font-size: .8em;
+        height: 100%;
+        justify-content: center;
+        position: sticky;
     }
-    
-/*   .current-tenants-link {
-        grid-row-start: 2;
-        grid-row-end: 3;
+    .footer-content {
+        color: white;
+        padding: 5px; 
+    }
+    .pipe {
+        padding-bottom: 5px;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 5px;
     }
 
-    .prospective-tenants-link {
-        grid-row-start: 4;
-        grid-row-end: 5;
-    }
-    
-    .owners-link {
-        grid-row-start: 6;
-        grid-row-end: 7;
-    }
-    
-    .employees-link {
-        grid-row-start: 8;
-        grid-row-end: 9;
-    }
-    
-    .current-investors-link {
-        grid-row-start: 11;
-        grid-row-end: 12;
-    }
-
-    .footer {
-        grid-row-start: 12;
-        grid-row-end: 13;
-    } */
-
-    .button {
-    background-color: rgb(0,97,111);
-    border-radius: 25%;
-    color: white;
-    display: block;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: .5em;
-    text-align: center;
-    text-decoration: none;
+    .attribution {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: .5em;
+        padding-top: .5em;
+        text-align: center;
     }
 
 }

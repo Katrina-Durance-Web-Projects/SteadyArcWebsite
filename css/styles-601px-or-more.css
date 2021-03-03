@@ -1,0 +1,106 @@
+@media only screen and (min-width: 601px) {
+
+    /* CSS RESETS */
+    * {
+        vertical-align: baseline;
+        font-weight: inherit;
+        font-family: inherit;
+        font-style: inherit;
+        font-size: 100%;
+        border: 0 none;
+        outline: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    .background {
+        background-image: url("../images/Chicago_skyline.jpg");
+        background-size: cover;
+        display: grid;
+        grid-gap: 1.4em;
+        grid-auto-rows: 10em 1fr;
+        height: 80vh;
+        resize: both;
+    }
+
+    .button-row {
+    /*     align-items: center;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        justify-items: center; */
+        white-space: nowrap;
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 2em;
+    } 
+
+    .header {
+        align-items: center;
+        background-color: rgb(0, 97, 111);
+        border-bottom: 1px solid rgb(0, 97, 111);
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        justify-items: center;
+    } 
+    .Steady-Arc-logo {
+        display: block;
+        justify-content: left;
+        padding-bottom: 5px;
+        padding-left: 1em;
+        width: 12em;
+    }
+    .header-content {
+        color: white; /*rgb(0, 97, 111);*/
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 4em;
+        font-weight: 400;
+        padding-left: 0.2em;
+        white-space: nowrap;
+        }
+
+        .button {
+        background-color:  rgb(0, 97, 111, 0.70);
+        border: 1px solid rgb(0, 97, 111);
+        border-radius: 20px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.3em;
+        font-weight: 400;
+        padding: 10px;
+        text-decoration: none;
+        }
+
+    .footer-container {
+        background-color: rgb(0, 97, 111);
+        border-bottom: 1px solid rgb(0, 97, 111);
+        color: white;
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        font-size: 1em;
+        height: 100%;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+    .footer-content {
+        color: white;
+        padding: 5px; 
+        white-space: nowrap;
+    }
+    .pipe {
+        padding-bottom: 5px;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 5px;
+    }
+
+    .attribution {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: .5em;
+        padding-top: .5em;
+        text-align: center;
+    }
+
+}
