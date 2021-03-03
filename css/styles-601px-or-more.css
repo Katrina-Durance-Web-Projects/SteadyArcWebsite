@@ -24,10 +24,6 @@
     }
 
     .button-row {
-    /*     align-items: center;
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        justify-items: center; */
         white-space: nowrap;
         display: flex; 
         flex-wrap: wrap;
