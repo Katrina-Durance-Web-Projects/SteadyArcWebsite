@@ -1,4 +1,4 @@
-# steadyarc.net Website Project
+# www.steadyarc.net Website Project
 
 This was my second website development project for a client. Steady Arc is a Chicago based property management company.
 
