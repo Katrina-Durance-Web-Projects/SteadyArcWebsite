@@ -13,24 +13,6 @@
         margin: 0;
     }
 
-    .background {
-        background-image: url("../images/Chicago_skyline.jpg");
-        background-size: cover;
-        display: grid;
-        grid-gap: 1.4em;
-        grid-auto-rows: 10em 1fr;
-        height: 80vh;
-        resize: both;
-    }
-
-    .button-row {
-        white-space: nowrap;
-        display: flex; 
-        flex-wrap: wrap;
-        justify-content: space-between;
-        padding: 2em;
-    } 
-
     .header {
         align-items: center;
         background-color: rgb(0, 97, 111);
@@ -53,7 +35,25 @@
         font-weight: 400;
         padding-left: 0.2em;
         white-space: nowrap;
-        }
+    }
+    
+    .background {
+        background-image: url("../images/Chicago_skyline.jpg");
+        background-size: cover;
+        display: grid;
+        grid-gap: 1.4em;
+        grid-auto-rows: 10em 1fr;
+        height: 80vh;
+        resize: both;
+    }
+
+    .button-row {
+        white-space: nowrap;
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 2em;
+    } 
 
         .button {
         background-color:  rgb(0, 97, 111, 0.70);
