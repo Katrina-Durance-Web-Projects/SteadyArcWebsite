@@ -44,7 +44,6 @@
         grid-gap: 1.4em;
         grid-auto-rows: 10em 1fr;
         height: 80vh;
-        resize: both;
     }
 
     .button-row {
