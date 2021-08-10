@@ -13,6 +13,16 @@
         margin: 0;
     }
 
+    @font-face {
+        font-family: "Futura";
+        src: url("../fonts/Futura-Condensed-Medium.otf") format("opentype");
+    }
+
+    @font-face {
+        font-family: "OpenSans";
+        src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+    }
+
     .header {
         align-items: center;
         background-color: rgb(0, 97, 111);
@@ -24,21 +34,22 @@
     .Steady-Arc-logo {
         display: block;
         justify-content: left;
-        padding-bottom: 5px;
+        padding-bottom: 10px;
         padding-left: 1em;
-        width: 12em;
+        padding-top: 10px;
+        width: 11.5em;
     }
     .header-content {
-        color: white; /*rgb(0, 97, 111);*/
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 4em;
+        color: white;
+        font-family: "Futura";
+        font-size: 6em;
         font-weight: 400;
         padding-left: 0.2em;
         white-space: nowrap;
     }
     
     .background {
-        background-image: url("../images/Chicago_skyline.jpg");
+        background-image: url("../images/Chicago_skyline_twilight.jpg");
         background-size: cover;
         display: grid;
         grid-gap: 1.4em;
@@ -47,19 +58,19 @@
     }
 
     .button-row {
-        white-space: nowrap;
         display: flex; 
         flex-wrap: wrap;
         justify-content: space-between;
         padding: 2em;
+        white-space: nowrap;
     } 
 
-        .button {
-        background-color:  rgb(0, 97, 111, 0.70);
+    .button {
+        background-color:  rgb(0, 97, 111);
         border: 1px solid rgb(0, 97, 111);
-        border-radius: 20px;
+        border-radius: 15px;
         color: white;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: "OpenSans";
         font-size: 1.3em;
         font-weight: 400;
         padding: 10px;
@@ -71,17 +82,20 @@
         border-bottom: 1px solid rgb(0, 97, 111);
         color: white;
         display: flex;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: "OpenSans";
         font-weight: 200;
         font-size: 1em;
         height: 100%;
         justify-content: center;
         margin-bottom: 0;
+        white-space: nowrap;
     }
     .footer-content {
         color: white;
         padding: 5px; 
-        white-space: nowrap;
+    }
+    .contact-link {
+        color: white;
     }
     .pipe {
         padding-bottom: 5px;
@@ -91,8 +105,8 @@
     }
 
     .attribution {
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 400;
+        font-family: "OpenSans";
+        font-weight: 600;
         font-size: .5em;
         padding-top: .5em;
         text-align: center;
