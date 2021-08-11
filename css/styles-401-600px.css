@@ -1,4 +1,4 @@
-@media only screen and (min-width: 401px) and (max-width: 600px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
 
     /* CSS RESETS */
     * {
@@ -10,8 +10,12 @@
         border: 0 none;
         outline: 0;
         padding: 0;
-        margin: 0;
         }
+
+    @font-face {
+        font-family: "OpenSans";
+        src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+    }
 
     .header {
         background-color: rgb(0, 97, 111);
@@ -39,7 +43,7 @@
         border-radius: 10px;
         color: white;
         display: flex;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: "OpenSans";
         font-weight: 400;
         justify-content: space-around;
         margin-bottom: 14px;
@@ -56,7 +60,7 @@
         border-bottom: 1px solid rgb(0, 97, 111);
         color: white;
         display: flex;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: "OpenSans";
         font-weight: 200;
         font-size: .8em;
         height: 100%;
@@ -74,10 +78,47 @@
     }
     
     .attribution {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: "OpenSans";
         font-weight: 400;
         font-size: .7em;
         text-align: center;
     }
+
+    /*  INVESTORS PAGE */
+
+    .bold {
+        font-weight: bold;
+    }
+
+    .center-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        height: auto;
+        margin: 10px;
+        width: 100%;
+    }
+
+    header {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.4em;
+        line-height: 1.5;
+        padding: .8em;
+        text-align: center;
+    }
+
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+        padding: .8em;
+    }
+
+    ul, li {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+    }
+}
 
 }
