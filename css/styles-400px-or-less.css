@@ -8,19 +8,18 @@
         font-style: inherit;
         font-size: 100%;
         border: 0 none;
-        margin: 0;
         outline: 0;
         }
 
-        @font-face {
-            font-family: "Futura";
-            src: url("../fonts/Futura-Condensed-Medium.otf") format("opentype");
-        }
-    
-        @font-face {
-            font-family: "OpenSans";
-            src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
-        }
+    @font-face {
+        font-family: "Futura";
+        src: url("../fonts/Futura-Condensed-Medium.otf") format("opentype");
+    }
+
+    @font-face {
+        font-family: "OpenSans";
+        src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+    }
 
     .header {
         align-items: center;
@@ -94,12 +93,18 @@
         font-weight: bold;
     }
 
+    .center-image {
+        display: flex;
+        justify-content: center;
+    }
+
     .enlarge:hover {
         transform: scale(2);
     }
 
     img {
         height: auto;
+        margin: 10px;
         width: 100%;
     }
 
