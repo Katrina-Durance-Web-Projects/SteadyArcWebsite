@@ -1,4 +1,4 @@
-@media only screen and (min-width: 401px) and (max-width: 600px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
 
     /* CSS RESETS */
     * {
@@ -11,6 +11,16 @@
         outline: 0;
         padding: 0;
         margin: 0;
+        }
+
+        @font-face {
+            font-family: "Futura";
+            src: url("../fonts/Futura-Condensed-Medium.otf") format("opentype");
+        }
+    
+        @font-face {
+            font-family: "OpenSans";
+            src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
         }
 
     .header {
