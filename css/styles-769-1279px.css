@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
 
     /* CSS RESETS */
     * {
@@ -8,37 +8,38 @@
         font-style: inherit;
         font-size: 100%;
         border: 0 none;
-        outline: 0;
         margin: 0;
-    }
+        outline: 0;
+        }
 
     @font-face {
         font-family: "Futura";
         src: url("../fonts/Futura-Condensed-Medium.otf") format("opentype");
     }
-
+    
     @font-face {
         font-family: "OpenSans";
         src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
     }
 
     .header {
-        align-items: center;
         background-color: rgb(0, 97, 111);
         border-bottom: 1px solid rgb(0, 97, 111);
         display: grid;
-        grid-template-columns: 1fr 2fr;
-        justify-items: center;
+        grid-template-columns: 12em 1fr;
+        place-content: center;
     } 
     .Steady-Arc-logo {
-        display: block;
-        justify-content: left;
+        display: flex;
+        justify-content: center;
         padding-bottom: 10px;
         padding-left: 1em;
         padding-top: 10px;
-        width: 11.5em;
     }
     .header-content {
+        align-items: center;
+        display: flex;
+        justify-content: center;
         color: white;
         font-family: "Futura";
         font-size: 6em;
@@ -53,28 +54,25 @@
         display: grid;
         grid-gap: 1.4em;
         grid-auto-rows: 10em 1fr;
-        height: 80vh;
+        height: 90vh;
     }
 
-    .button-row {
-        display: flex; 
-        flex-wrap: wrap;
-        justify-content: space-between;
-        padding: 2em;
-        white-space: nowrap;
-    } 
-
     .button {
-        background-color:  rgb(0, 97, 111);
-        border: 1px solid rgb(0, 97, 111);
-        border-radius: 15px;
+        background-color: rgb(0,97,111);
+        border-radius: 10px;
         color: white;
+        display: flex;
         font-family: "OpenSans";
-        font-size: 1.3em;
         font-weight: 400;
-        padding: 10px;
+        justify-content: space-around;
+        margin-bottom: 14px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 14px;
+        padding: .5em;
+        text-align: center;
         text-decoration: none;
-        }
+    }
 
     .footer-container {
         background-color: rgb(0, 97, 111);
@@ -83,11 +81,9 @@
         display: flex;
         font-family: "OpenSans";
         font-weight: 200;
-        font-size: 1em;
+        font-size: .8em;
         height: 100%;
         justify-content: center;
-        margin-bottom: 0;
-        white-space: nowrap;
     }
     .footer-content {
         color: white;
@@ -102,12 +98,11 @@
         padding-right: 1em;
         padding-top: 5px;
     }
-
+    
     .attribution {
         font-family: "OpenSans";
-        font-weight: 600;
-        font-size: .5em;
-        padding-top: .5em;
+        font-weight: 400;
+        font-size: .7em;
         text-align: center;
     }
 
@@ -124,7 +119,8 @@
 
     img {
         height: auto;
-        width: 70%;
+        margin: 10px;
+        width: 80%;
     }
 
     header {

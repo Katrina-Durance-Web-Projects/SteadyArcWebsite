@@ -1,4 +1,4 @@
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 480px) {
 
 /* CSS RESETS */
     * {
@@ -20,6 +20,10 @@
     @font-face {
         font-family: "OpenSans";
         src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+    }
+
+    .homepage-content {
+        height: 100%;
     }
 
     .header {
@@ -72,6 +76,9 @@
     .footer-content {
         color: white;
         padding: 5px; 
+    }
+    .contact-link {
+        color: white;
     }
     .pipe {
         padding-bottom: 5px;
