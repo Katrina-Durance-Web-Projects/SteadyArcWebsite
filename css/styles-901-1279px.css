@@ -1,4 +1,4 @@
-@media only screen and (min-width: 769px) and (max-width: 1279px) {
+@media only screen and (min-width: 901px) and (max-width: 1279px) {
 
     /* CSS RESETS */
     * {
@@ -23,26 +23,25 @@
     }
 
     .header {
+        align-items: center;
         background-color: rgb(0, 97, 111);
         border-bottom: 1px solid rgb(0, 97, 111);
         display: grid;
-        grid-template-columns: 12em 1fr;
-        place-content: center;
+        grid-template-columns: 1fr 2fr;
+        justify-items: center;
     } 
     .Steady-Arc-logo {
-        display: flex;
+        display: block;
         justify-content: center;
         padding-bottom: 10px;
         padding-left: 1em;
         padding-top: 10px;
+        width: 11.5em;
     }
     .header-content {
-        align-items: center;
-        display: flex;
-        justify-content: center;
         color: white;
         font-family: "Futura";
-        font-size: 6em;
+        font-size: 7em;
         font-weight: 400;
         padding-left: 0.2em;
         white-space: nowrap;
@@ -54,40 +53,47 @@
         display: grid;
         grid-gap: 1.4em;
         grid-auto-rows: 10em 1fr;
-        height: 90vh;
+        height: 80vh;
     }
 
+    .button-row {
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 3em;
+        white-space: nowrap;
+    } 
+
     .button {
-        background-color: rgb(0,97,111);
-        border-radius: 10px;
+        background-color:  rgb(0, 97, 111);
+        border: 1px solid rgb(0, 97, 111);
+        border-radius: 15px;
         color: white;
-        display: flex;
         font-family: "OpenSans";
+        font-size: 1.2em;
         font-weight: 400;
-        justify-content: space-around;
-        margin-bottom: 14px;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 14px;
-        padding: .5em;
-        text-align: center;
+        padding: 10px;
         text-decoration: none;
-    }
+        }
 
     .footer-container {
         background-color: rgb(0, 97, 111);
         border-bottom: 1px solid rgb(0, 97, 111);
         color: white;
         display: flex;
-        font-family: "OpenSans";
-        font-weight: 200;
-        font-size: .8em;
+        font-family: "Futura";
+        font-weight: 100;
+        font-size: 1em;
         height: 100%;
         justify-content: center;
+        margin-bottom: 0;
+        white-space: nowrap;
     }
     .footer-content {
         color: white;
-        padding: 5px; 
+        padding: 10px; 
     }
     .contact-link {
         color: white;
@@ -96,13 +102,18 @@
         padding-bottom: 5px;
         padding-left: 1em;
         padding-right: 1em;
-        padding-top: 5px;
+        padding-top: 8px;
     }
-    
+    .steady-arc {
+        display: none;
+    }
+
     .attribution {
         font-family: "OpenSans";
-        font-weight: 400;
-        font-size: .7em;
+        font-weight: 600;
+        font-size: .5em;
+        padding-bottom: .5em;
+        padding-top: .4em;
         text-align: center;
     }
 
@@ -120,25 +131,34 @@
     img {
         height: auto;
         margin: 10px;
-        width: 80%;
+        width: 60%;
     }
 
     header {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.4em;
+        font-family: "OpenSans";
+        font-size: 2em;
         line-height: 1.5;
         padding: .8em;
         text-align: center;
     }
 
     p {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: "OpenSans";
         line-height: 1.5;
-        padding: .8em;
+        margin-left: 10em;
+        margin-right: 10em;
+        padding-bottom: .8em;
+        padding-top: .8em;
     }
 
     ul, li {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: "OpenSans";
         line-height: 1.5;
+        margin-left: 5em;
     }
+
+    .sublist-items {
+        margin-left: 1em;
+    }
+
 }

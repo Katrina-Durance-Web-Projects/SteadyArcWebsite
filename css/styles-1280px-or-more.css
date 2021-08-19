@@ -36,13 +36,14 @@
         padding-bottom: 10px;
         padding-left: 1em;
         padding-top: 10px;
-        width: 11.5em;
+        width: 13em;
     }
     .header-content {
         color: white;
         font-family: "Futura";
-        font-size: 7em;
+        font-size: 8em;
         font-weight: 400;
+        padding-bottom: 10px;
         padding-left: 0.2em;
         white-space: nowrap;
     }
@@ -72,7 +73,7 @@
         border-radius: 15px;
         color: white;
         font-family: "OpenSans";
-        font-size: 1.3em;
+        font-size: 2em;
         font-weight: 400;
         padding: 10px;
         text-decoration: none;
@@ -83,8 +84,8 @@
         border-bottom: 1px solid rgb(0, 97, 111);
         color: white;
         display: flex;
-        font-family: "OpenSans";
-        font-weight: 200;
+        font-family: "Futura";
+        font-weight: 100;
         font-size: 1em;
         height: 100%;
         justify-content: center;
@@ -93,7 +94,7 @@
     }
     .footer-content {
         color: white;
-        padding: 5px; 
+        margin: 10px; 
     }
     .contact-link {
         color: white;
@@ -102,14 +103,20 @@
         padding-bottom: 5px;
         padding-left: 1em;
         padding-right: 1em;
-        padding-top: 5px;
+        padding-top: 8px;
+    }
+    .steady-arc {
+        color: white;
+        display: none;
+        padding: 5px; 
     }
 
     .attribution {
         font-family: "OpenSans";
         font-weight: 600;
-        font-size: .5em;
-        padding-top: .5em;
+        font-size: .7em;
+        padding-bottom: .5em;
+        padding-top: .4em;
         text-align: center;
     }
 
@@ -126,25 +133,35 @@
 
     img {
         height: auto;
-        width: 70%;
+        padding: 1em;
+        width: 40%;
     }
 
     header {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.4em;
+        font-family: "OpenSans";
+        font-size: 2.5em;
         line-height: 1.5;
         padding: .8em;
         text-align: center;
     }
 
     p {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: "OpenSans";
         line-height: 1.5;
-        padding: .8em;
+        margin-left: 23em;
+        margin-right: 23em;
+        padding-bottom: .8em;
+        padding-top: .8em;
     }
 
     ul, li {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: "OpenSans";
         line-height: 1.5;
+        margin-left: 12em;
     }
+
+    .sublist-items {
+        margin-left: 1em;
+    }
+
 }
