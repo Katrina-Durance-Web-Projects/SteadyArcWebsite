@@ -1,4 +1,4 @@
-@media only screen and (min-width: 481px) and (max-width: 900px) {
+@media only screen and (min-width: 671px) and (max-width: 900px) {
 
     /* CSS RESETS */
         * {
@@ -42,19 +42,30 @@
             display: none;
         }
     
+        .background {
+            align-items: center;
+            background-image: url("../images/Chicago_skyline_twilight.jpg");
+            background-size: cover;
+            display: grid;
+            grid-auto-rows: repeat (5, 1fr) ;
+            height: 80vh;
+            justify-content: center;
+        }
+    
         .button {
             background-color: rgb(0,97,111);
             border-radius: 10px;
             color: white;
             display: flex;
             font-family: "OpenSans";
+            font-size: 2em;
             font-weight: 400;
             justify-content: space-around;
             margin-bottom: 14px;
             margin-left: 10px;
             margin-right: 10px;
             margin-top: 14px;
-            padding: .5em;
+            padding: 1em;
             text-align: center;
             text-decoration: none;
         }
@@ -70,7 +81,6 @@
             font-size: 1em;
             height: 100%;
             justify-content: center;
-            position: sticky;
             white-space: nowrap;
         }
         .steady-arc {
@@ -94,10 +104,22 @@
         .attribution {
             font-family: "OpenSans";
             font-weight: 400;
-            font-size: .7em;
+            font-size: .6em;
             padding-bottom: .5em;
             padding-top: .4em;
             text-align: center;
+        }
+        .email-link:link {
+            color: rgb(0, 97, 111);
+        }
+        .email-link:visited {
+            color: rgb(0,164,180);
+        }
+        .email-link:hover {
+            color: rgb(0,164,180);
+        }
+        .email-link:active {
+            color: rgb(0,164,180);
         }
     
         /*  INVESTORS PAGE */

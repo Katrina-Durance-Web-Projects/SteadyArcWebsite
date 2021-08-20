@@ -104,17 +104,26 @@
         padding-right: 1em;
         padding-top: 8px;
     }
-    .steady-arc {
-        display: none;
-    }
 
     .attribution {
         font-family: "OpenSans";
         font-weight: 600;
-        font-size: .5em;
+        font-size: .6em;
         padding-bottom: .5em;
         padding-top: .4em;
         text-align: center;
+    }
+    .email-link:link {
+        color: rgb(0, 97, 111);
+    }
+    .email-link:visited {
+        color: rgb(0,164,180);
+    }
+    .email-link:hover {
+        color: rgb(0,164,180);
+    }
+    .email-link:active {
+        color: rgb(0,164,180);
     }
 
     /*  INVESTORS PAGE */
