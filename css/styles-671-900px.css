@@ -44,7 +44,7 @@
     
         .background {
             align-items: center;
-            background-image: url("../images/Chicago_skyline_twilight.jpg");
+            background-image: url("../images/chicago_skyline_twilight.jpg");
             background-size: cover;
             display: grid;
             grid-auto-rows: repeat (5, 1fr) ;

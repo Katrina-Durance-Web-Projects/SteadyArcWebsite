@@ -124,10 +124,6 @@
         margin: 10px;
     }
 
-    .enlarge:hover {
-        transform: scale(2);
-    }
-
     img {
         margin: 10px;
         width: 100%;
