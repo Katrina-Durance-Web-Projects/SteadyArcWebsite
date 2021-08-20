@@ -95,8 +95,17 @@
         color: white;
         padding: 10px; 
     }
-    .contact-link {
+    .contact-link:link {
         color: white;
+    }
+    .contact-link:visited {
+        color: rgb(0,164,180);
+    }
+    .contact-link:hover {
+        color: rgb(0,164,180);
+    }
+    .contact-link:active {
+        color: rgb(0,164,180);
     }
     .pipe {
         padding-bottom: 5px;
