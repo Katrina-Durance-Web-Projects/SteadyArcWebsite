@@ -118,8 +118,9 @@
     }
 
     .center-image {
-        display: grid;
-        place-items: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
         margin: 10px;
     }
 
@@ -128,7 +129,6 @@
     }
 
     img {
-        height: auto;
         margin: 10px;
         width: 100%;
     }
