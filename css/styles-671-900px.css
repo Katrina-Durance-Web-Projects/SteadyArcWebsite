@@ -21,9 +21,15 @@
             font-family: "OpenSans";
             src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
         }
+
+        body {
+            display: flex;
+            min-height: 100%;
+            flex-direction: column;
+        }
     
         .homepage-content {
-            height: 100%;
+            flex: 1;
         }
     
         .header {
@@ -47,8 +53,8 @@
             background-image: url("../images/chicago_skyline_twilight.jpg");
             background-size: cover;
             display: grid;
-            grid-auto-rows: repeat (5, 1fr) ;
-            height: 80vh;
+            grid-auto-rows: repeat (5, 1fr);
+            height: 75vh;
             justify-content: center;
         }
     
@@ -75,11 +81,10 @@
             border-bottom: 1px solid rgb(0, 97, 111);
             color: white;
             display: flex;
-            flex-wrap: wrap;
+            flex-direction: row;
             font-family: "Futura";
             font-weight: 100;
             font-size: 1em;
-            height: 100%;
             justify-content: center;
             white-space: nowrap;
         }
